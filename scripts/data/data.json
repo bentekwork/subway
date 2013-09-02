@@ -3,7 +3,9 @@
 	"status" : "received",
 	"returns" :[
 		{"original_status" : "subqa", "return_status" : "subgen", "reason" : "Wrong Deponent assigned to Job"},
+		{"original_status" : "subqa", "return_status" : "subgen", "reason" : "Incomplete Request language"},
 		{"original_status" : "subqa", "return_status" : "subgen", "reason" : "Incomplete Request language"}
+
 	],
 	"attorneys" : [
 		{
