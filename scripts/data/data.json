@@ -1,0 +1,36 @@
+[{ 
+	"job_id" : "123455", 
+	"status" : "received",
+	"returns" :[
+		{"original_status" : "subqa", "return_status" : "subgen", "reason" : "Wrong Deponent assigned to Job"},
+		{"original_status" : "subqa", "return_status" : "subgen", "reason" : "Incomplete Request language"}
+	],
+	"attorneys" : [
+		{
+			"attorney_name" : "Matlock", 
+			"status" : "billing",
+			"returns": [
+				{"original_status" : "finalize", "return_status" : "qa", "reason" : "Incomplete Request language"},
+				{"original_status" : "qa", "return_status" : "processing", "reason" : "Incomplete Request language"}
+			]
+		},
+		{
+			"attorney_name" : "Ben Routson", 
+			"status" : "complete",
+			"returns": [
+				{"original_status" : "qa", "return_status" : "qa", "reason" : "Incomplete Request language"},
+				{"original_status" : "qa", "return_status" : "processing", "reason" : "Incomplete Request language"}
+			]
+		},
+		{
+			"attorney_name" : "Denny Crane", 
+			"status" : "complete",
+			"returns": [
+				{"original_status" : "billing", "return_status" : "processing", "reason" : "Incomplete Request language"},
+				{"original_status" : "billing", "return_status" : "processing", "reason" : "Incomplete Request language"}
+
+			]
+		}
+
+	]
+}]
