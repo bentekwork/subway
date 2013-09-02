@@ -96,7 +96,7 @@ define(['lib/d3'], function () {
 		//join lines and circle arrays and pass them into the functions below to draw them.
 		var jsonLines = coreLines.concat(d3Lines);
 		var jsonCircles = coreCircles.concat(d3Circles);
-		var subway = d3.select("#content") 
+		var subway = d3.select("#subway") 
 			.append("svg:svg")
 			.attr("width", 1200)   
 			.attr("height", 800); 
